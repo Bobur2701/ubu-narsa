@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    ul {
+        display: flex;
+        li {
+            padding: 0 15px;
+            font-family: 'Roboto', sans-serif;
+            color: rgba(0, 0, 0, 0.8);
+            font-weight: 900;
+            font-size: 18px;
+        }
+    }
+    .icons {
+        display: flex;
+        gap: 0 20px;
+    }
+}
+
+// phone  version
+
+@media screen and  (max-width:480px) and (min-width:300px) {
+    header ul li {
+        display: none;
+    }
+    
+}
+
